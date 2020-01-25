@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
                 insert(word, root);
                 free(word);
                 word = (char *) malloc(sizeof (char) * 2);
-                *(1+word),*wod = 0;
+                *(1+word),*word = 0;
                 if (size <= i) size = i;
                 i = 0;
             }
