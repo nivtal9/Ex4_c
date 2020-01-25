@@ -83,7 +83,7 @@ void PrintWords(bool rev, int j,char outWord[],trieNode* root){
     trieNode *curr = root;
     if (curr -> wordcount != 0 ) {
         outWord[j] = '\0';
-        printf("%s %d\n", outWord, root -> wordcount);
+        printf("%s\t %d\n", outWord, root -> wordcount);
     }
     int index;
     for (int i = 0; i < num_of_children; ++i) {
